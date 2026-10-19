@@ -5,11 +5,7 @@
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script>
-      (function() {
-        var p = window.location.pathname;
-        var base = p.endsWith('/') ? p.slice(0, -1) : p.replace(/\/[^\/]*$/, '');
-        window.TURBOPACK_CHUNK_BASE_PATH = base + '/_next/';
-      })();
+      window.TURBOPACK_CHUNK_BASE_PATH = './_next/';
     </script>
     <link rel="stylesheet" href="./_next/static/chunks/0u_4a172hft8a.css" data-precedence="next" />
     <link rel="preload" as="script" fetchPriority="low" href="./_next/static/chunks/19wg2q9r2_sev.js" />
